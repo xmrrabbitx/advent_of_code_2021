@@ -1,3 +1,5 @@
+#first commit
+
 inp = open("input.txt")
 
 r = inp.readlines()
@@ -14,7 +16,7 @@ i = 0
 incr = []
 
 while i <= (len(arr)-1):
-        
+
     if(i+1 <= (len(arr)-1)):
         if(arr[i] < arr[i+1]):
             incr.append("increased")
